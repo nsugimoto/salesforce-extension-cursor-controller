@@ -1,4 +1,4 @@
-salesforce-extension-cursor-controller
+Chrome extension cursor controller
 ======================================
 This extension blocks moving initial cursor on Account / Contact / Case records edit page.
 
