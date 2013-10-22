@@ -36,9 +36,9 @@ function getRecordId(url){
 	url = url.replace(new RegExp(/\?(.*)/),"");
 	//Remove String after /e/
 	url = url.replace(new RegExp(/\/e(.*)/),"");
-    //Remove String before first slash
-    url = url.replace(new RegExp(/(.*)\//),"");
-    return url;
+	//Remove String before first slash
+	url = url.replace(new RegExp(/(.*)\//),"");
+	return url;
 }
 
 function getEditFlag(url_value){ 
@@ -50,7 +50,7 @@ function getEditFlag(url_value){
 	url_value = url_value.replace(new RegExp(/^www\./i),"");
 	//Remove all of string after ?
 	url_value = url_value.replace(new RegExp(/\?(.*)/),"");
-    //Remove String before first slash
-    url_value = url_value.replace(new RegExp(/(.*)\//),"");
-    return url_value;
+	//Remove String before first slash
+	url_value = url_value.replace(new RegExp(/(.*)\//),"");
+	return url_value;
 }
