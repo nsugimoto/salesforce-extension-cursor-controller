@@ -14,7 +14,7 @@ function _delete_dom_obj( id_name ){
     }else if ( rId.match(new RegExp(/003(.*)/i)) && eFlag.match(new RegExp(/e/i)) ) {
     	 dom_obj_parent.removeChild(dom_obj);
     }else if ( !eFlag.match(new RegExp(/e/i)) ) {
-    	 //Modifying no Edit page behavior
+         //Modifying no Edit page behavior
          //document.getElementById("phSearchInput").tabIndex="1"
          //document.getElementById("phSearchInput").focus();
     }
