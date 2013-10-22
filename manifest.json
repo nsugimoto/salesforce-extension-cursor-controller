@@ -1,0 +1,11 @@
+{
+   "content_scripts": [ {
+      "js": [ "contentscript.js" ],
+      "matches": [ "https://org62.my.salesforce.com/*" ]
+   } ],
+   "description": "This extension blocks moving initial cursor on 001/003/500 record edit page.",
+   "name": "Salesforce initial cursor controller",
+   "permissions": [ "tabs" ],
+   "manifest_version": 3,
+   "version": "0.3"
+}
